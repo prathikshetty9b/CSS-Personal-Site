@@ -49,6 +49,7 @@ span{
     position: absolute;
     top: 500px;
     left: 20%;
+    z-index: 100;
 
 }
 .bottom-container{
@@ -92,6 +93,11 @@ span{
 }
 .hero-img{
     max-width: 1400px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+    bottom: 0;
     width: 90%;
 }
 .hobby-img{
@@ -112,6 +118,10 @@ span{
     text-align: left;
    
 }
+.subtitle{
+    position: relative;
+    bottom: 20px;
+}
 .top-cloud{
     position: absolute;
     right: 20%;
@@ -119,7 +129,7 @@ span{
 }
 .top-container{
     background-color: #e4f9f5;
-    height: 100vh;
+    height: 90vh;
     padding-top: 100px;
     position: relative;
 
